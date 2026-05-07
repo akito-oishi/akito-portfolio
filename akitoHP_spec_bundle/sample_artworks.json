@@ -1,0 +1,14 @@
+
+[
+  {
+    "slug": "sample-work-001",
+    "title": "Sample Work",
+    "year": 2026,
+    "size": "F10",
+    "medium": "Nihonga",
+    "comment": "Short description here.",
+    "image": "sample-work-001.png",
+    "featured": true,
+    "tags": ["nihonga"]
+  }
+]

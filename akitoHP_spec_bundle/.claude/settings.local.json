@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(npx create-next-app@14 . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(cp /tmp/akito-hp/.eslintrc.json /Users/naotoo/Documents/ClaudeCode/akitoHP/)",
+      "Bash(cp /tmp/akito-hp/.gitignore /Users/naotoo/Documents/ClaudeCode/akitoHP/)",
+      "Bash(cp /tmp/akito-hp/README.md /Users/naotoo/Documents/ClaudeCode/akitoHP/)",
+      "Bash(cp /tmp/akito-hp/next-env.d.ts /Users/naotoo/Documents/ClaudeCode/akitoHP/)",
+      "Bash(cp /tmp/akito-hp/next.config.mjs /Users/naotoo/Documents/ClaudeCode/akitoHP/)"
+    ]
+  }
+}
