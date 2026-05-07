@@ -29,7 +29,7 @@ export function ProfileContent({ profile }: { profile: Profile }) {
                                 priority
                             />
                         </div>
-                        <p className="font-serif text-xl font-light mt-5 tracking-wider">
+                        <p className="font-serif text-xl font-light mt-5 tracking-wider text-ink">
                             {lang === 'ja' ? profile.name : profile.nameEn}
                         </p>
                     </FadeIn>
@@ -45,7 +45,7 @@ export function ProfileContent({ profile }: { profile: Profile }) {
                                     <dt className="font-sans text-xs text-muted w-10 shrink-0 pt-0.5">
                                         {entry.year}
                                     </dt>
-                                    <dd className="font-sans text-sm leading-relaxed">
+                                    <dd className="font-sans text-sm leading-relaxed text-ink">
                                         {lang === 'ja' ? entry.text : entry.textEn}
                                     </dd>
                                 </div>
