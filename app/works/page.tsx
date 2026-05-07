@@ -3,7 +3,7 @@ import { WorksGrid } from '@/components/works/WorksGrid'
 
 export const metadata = {
     title: '作品 | Works',
-    description: '大石晃人の作品一覧。Gallery of works by Nihonga artist Akito Oishi.',
+    description: '大石晃人の作品一覧。',
 }
 
 export default function WorksPage() {
