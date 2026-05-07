@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Akito Oishi Portfolio
 
-## Getting Started
+大石晃人（日本画家）のポートフォリオサイト。
 
-First, run the development server:
+## セットアップ
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 作品の追加方法
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. 画像を `public/artworks/` に追加する
+2. `data/artworks.json` に以下の形式でエントリーを追加する:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```json
+{
+  "slug": "作品のURLスラッグ（例: moon-2026）",
+  "title": "タイトル（日本語）",
+  "titleEn": "Title (English)",
+  "year": 2026,
+  "size": "F10",
+  "medium": "日本画",
+  "mediumEn": "Nihonga",
+  "comment": "作品コメント（日本語）",
+  "commentEn": "Comment (English)",
+  "image": "ファイル名.jpg",
+  "featured": false,
+  "tags": ["nihonga"]
+}
+```
 
-## Learn More
+`featured: true` にするとホームページの Featured Works セクションに表示される。
 
-To learn more about Next.js, take a look at the following resources:
+## 展覧会の追加方法
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`data/exhibitions.json` に以下の形式でエントリーを追加する:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```json
+{
+  "title": "展覧会名（日本語）",
+  "titleEn": "Exhibition Title",
+  "location": "会場（日本語）",
+  "locationEn": "Venue",
+  "startDate": "2026-01-01",
+  "endDate": "2026-01-10",
+  "description": "",
+  "descriptionEn": "",
+  "link": ""
+}
+```
 
-## Deploy on Vercel
+## コンタクトフォームの設定
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`.env.local` に Formspree のフォーム ID を設定する:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+NEXT_PUBLIC_FORMSPREE_ID=your_form_id
+```
+
+1. https://formspree.io でアカウントを作成し「New Form」を作成
+2. 送信先メールアドレスを `huangredanshi@gmail.com` に設定
+3. 発行された ID（例: `xpzgekrl`）を `.env.local` に設定
+
+## Vercel デプロイ
+
+1. GitHub にリポジトリを作成してプッシュする
+2. https://vercel.com でプロジェクトをインポートする
+3. 以下の環境変数を Vercel の設定に追加する:
+   - `NEXT_PUBLIC_FORMSPREE_ID` — Formspree のフォーム ID
+   - `NEXT_PUBLIC_SITE_URL` — 本番 URL（例: `https://akito-oishi.vercel.app`）
+4. デプロイ完了
+
+## ページ構成
+
+| ページ | URL |
+|--------|-----|
+| ホーム | `/` |
+| 作品一覧 | `/works` |
+| 作品詳細 | `/works/[slug]` |
+| プロフィール | `/profile` |
+| 展覧会 | `/exhibitions` |
+| お問い合わせ | `/contact` |
