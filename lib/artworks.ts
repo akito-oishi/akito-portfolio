@@ -12,7 +12,7 @@ export function getFeaturedArtworks(): Artwork[] {
     return featured.length > 0 ? featured : artworks.slice(0, 4)
 }
 
-export function getHeroArtwork(): Artwork {
+export function getHeroArtwork(): Artwork | undefined {
     return getFeaturedArtworks()[0]
 }
 

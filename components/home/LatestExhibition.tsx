@@ -32,7 +32,7 @@ export function LatestExhibition({ exhibition }: { exhibition: Exhibition }) {
                         </p>
                         <div className="flex items-center gap-3">
                             {ongoing && (
-                                <span className="font-sans text-xs tracking-widest text-muted">●</span>
+                                <span className="font-sans text-xs tracking-widest text-muted" aria-hidden="true">●</span>
                             )}
                             <p className="font-sans text-xs tracking-wider text-muted">
                                 {lang === 'ja' ? exhibition.location : exhibition.locationEn}

@@ -29,7 +29,7 @@ export function FeaturedWorks({ artworks }: { artworks: Artwork[] }) {
                 {artworks.slice(0, 4).map((artwork, i) => (
                     <FadeIn key={artwork.slug} delay={i * 0.08}>
                         <Link href={`/works/${artwork.slug}`} className="block group">
-                            <div className="relative overflow-hidden aspect-[4/3] bg-gray-50">
+                            <div className="relative overflow-hidden aspect-[4/3] bg-paper">
                                 <Image
                                     src={`/artworks/${artwork.image}`}
                                     alt={lang === 'ja' ? artwork.title : artwork.titleEn}
@@ -37,8 +37,8 @@ export function FeaturedWorks({ artworks }: { artworks: Artwork[] }) {
                                     className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                                     sizes="(max-width: 768px) 100vw, 50vw"
                                 />
-                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-400 flex items-end p-5 md:p-7">
-                                    <div className="text-paper opacity-0 group-hover:opacity-100 transition-opacity duration-300 translate-y-2 group-hover:translate-y-0 transition-transform">
+                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300 flex items-end p-5 md:p-7">
+                                    <div className="text-paper opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-[opacity,transform] duration-300">
                                         <p className="font-serif text-lg font-light">
                                             {lang === 'ja' ? artwork.title : artwork.titleEn}
                                         </p>

@@ -6,6 +6,7 @@ import { LatestExhibition } from '@/components/home/LatestExhibition'
 
 export default function HomePage() {
     const hero = getHeroArtwork()
+    if (!hero) return null
     const featured = getFeaturedArtworks()
     const latestExhibition = getLatestExhibition()
 
