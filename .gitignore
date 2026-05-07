@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Spec bundle (not part of the website)
+akitoHP_spec_bundle/
+
+# Claude settings
+.claude/
