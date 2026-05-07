@@ -14,11 +14,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const artwork = getArtworkBySlug(params.slug)
   if (!artwork) return {}
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://akito-oishi.vercel.app'
+  const title = artwork.title
+  const description = artwork.comment || `${artwork.title} — ${artwork.year}`
   return {
-    title: artwork.title,
-    description: artwork.comment || `${artwork.title} — ${artwork.year}`,
+    title,
+    description,
     openGraph: {
-      images: [{ url: `/artworks/${artwork.image}` }],
+      title,
+      description,
+      images: [{ url: `${baseUrl}/artworks/${artwork.image}` }],
     },
   }
 }

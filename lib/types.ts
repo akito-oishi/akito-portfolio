@@ -6,8 +6,8 @@ export type Artwork = {
     size: string
     medium: string
     mediumEn: string
-    comment: string
-    commentEn: string
+    comment?: string
+    commentEn?: string
     image: string
     featured: boolean
     tags: string[]
