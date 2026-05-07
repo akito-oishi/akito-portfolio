@@ -1,0 +1,15 @@
+{
+  "name": "大石晃人",
+  "nameEn": "Akito Oishi",
+  "bio": [
+    { "year": "1997", "text": "静岡県焼津市生まれ", "textEn": "Born in Yaizu, Shizuoka, Japan" },
+    { "year": "2004", "text": "焼津市新屋幼稚園 卒業", "textEn": "Graduated from Shinyashiki Kindergarten, Yaizu" },
+    { "year": "2010", "text": "焼津市立焼津東小学校 卒業", "textEn": "Graduated from Yaizu East Elementary School" },
+    { "year": "2013", "text": "静岡大学教育学部附属島田中学校 卒業", "textEn": "Graduated from Shizuoka University Affiliated Shimada Junior High School" },
+    { "year": "2016", "text": "静岡学園高校 卒業", "textEn": "Graduated from Shizuoka Gakuen High School" },
+    { "year": "2022", "text": "愛知県立芸術大学 美術学部 卒業", "textEn": "BFA, Aichi University of the Arts" },
+    { "year": "2024", "text": "愛知県立芸術大学 大学院 修士課程 修了", "textEn": "MFA, Aichi University of the Arts" }
+  ],
+  "email": "huangredanshi@gmail.com",
+  "instagram": "akito_oishi"
+}
