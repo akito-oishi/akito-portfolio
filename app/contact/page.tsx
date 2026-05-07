@@ -60,10 +60,11 @@ export default function ContactPage() {
                     ) : (
                         <form onSubmit={handleSubmit} className="space-y-10" noValidate>
                             <div>
-                                <label className="block font-sans text-xs tracking-widest text-muted mb-3">
+                                <label htmlFor="contact-name" className="block font-sans text-xs tracking-widest text-muted mb-3">
                                     {t('contact', 'name')}
                                 </label>
                                 <input
+                                    id="contact-name"
                                     name="name"
                                     type="text"
                                     required
@@ -73,10 +74,11 @@ export default function ContactPage() {
                             </div>
 
                             <div>
-                                <label className="block font-sans text-xs tracking-widest text-muted mb-3">
+                                <label htmlFor="contact-email" className="block font-sans text-xs tracking-widest text-muted mb-3">
                                     {t('contact', 'email')}
                                 </label>
                                 <input
+                                    id="contact-email"
                                     name="email"
                                     type="email"
                                     required
@@ -86,10 +88,11 @@ export default function ContactPage() {
                             </div>
 
                             <div>
-                                <label className="block font-sans text-xs tracking-widest text-muted mb-3">
+                                <label htmlFor="contact-message" className="block font-sans text-xs tracking-widest text-muted mb-3">
                                     {t('contact', 'message')}
                                 </label>
                                 <textarea
+                                    id="contact-message"
                                     name="message"
                                     required
                                     rows={6}
