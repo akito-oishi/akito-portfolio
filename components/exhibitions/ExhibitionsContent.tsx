@@ -35,7 +35,7 @@ export function ExhibitionsContent({ exhibitions }: { exhibitions: Exhibition[] 
                                     const ongoing = isOngoing(ex)
                                     return (
                                         <div
-                                            key={i}
+                                            key={ex.startDate + ex.title}
                                             className="flex flex-col md:flex-row gap-2 md:gap-12 py-7 border-b border-border first:border-t"
                                         >
                                             <div className="md:w-52 shrink-0">
@@ -62,7 +62,10 @@ export function ExhibitionsContent({ exhibitions }: { exhibitions: Exhibition[] 
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                         className="font-sans text-xs text-muted hover:text-ink transition-colors mt-2 inline-block"
-                                                        aria-label={`${lang === 'ja' ? ex.title : ex.titleEn} の詳細ページ`}
+                                                        aria-label={lang === 'ja'
+                                                            ? `${ex.title} の詳細ページ`
+                                                            : `${ex.titleEn} – details page`
+                                                        }
                                                     >
                                                         →
                                                     </a>

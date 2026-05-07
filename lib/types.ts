@@ -20,9 +20,9 @@ export type Exhibition = {
     locationEn: string
     startDate: string
     endDate: string
-    description: string
-    descriptionEn: string
-    link: string
+    description?: string
+    descriptionEn?: string
+    link?: string
 }
 
 export type BiographyEntry = {
