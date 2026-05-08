@@ -50,7 +50,7 @@ export function WorkDetail({ artwork, prev, next }: Props) {
             <h1 className="font-serif text-2xl md:text-3xl font-light mb-8 leading-snug">
               {title}
             </h1>
-            <dl className="space-y-5">
+            <dl className="flex flex-row gap-6 md:flex-col md:gap-0 md:space-y-5">
               <div>
                 <dt className="font-sans text-xs text-muted tracking-widest mb-1">
                   {t('works', 'year')}
@@ -69,12 +69,12 @@ export function WorkDetail({ artwork, prev, next }: Props) {
                 </dt>
                 <dd className="font-sans text-sm">{medium}</dd>
               </div>
-              {comment && (
-                <div className="pt-5 border-t border-border">
-                  <p className="font-sans text-sm leading-relaxed text-muted">{comment}</p>
-                </div>
-              )}
             </dl>
+            {comment && (
+              <div className="mt-6 pt-5 border-t border-border">
+                <p className="font-sans text-sm leading-relaxed text-muted">{comment}</p>
+              </div>
+            )}
           </div>
         </div>
 
