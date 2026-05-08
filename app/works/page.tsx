@@ -1,5 +1,5 @@
-import { getArtworks } from '@/lib/artworks'
-import { WorksGrid } from '@/components/works/WorksGrid'
+import { getArtworks, getSeriesList } from '@/lib/artworks'
+import { SeriesList } from '@/components/works/SeriesList'
 
 export const metadata = {
     title: '作品 | Works',
@@ -7,10 +7,11 @@ export const metadata = {
 }
 
 export default function WorksPage() {
+    const seriesList = getSeriesList()
     const artworks = getArtworks()
     return (
         <div className="pt-16">
-            <WorksGrid artworks={artworks} />
+            <SeriesList seriesList={seriesList} artworks={artworks} />
         </div>
     )
 }

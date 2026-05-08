@@ -27,7 +27,6 @@ export function Header() {
 
   const navLinks = [
     { href: '/works', label: t('nav', 'works') },
-    { href: '/materials', label: t('nav', 'materials') },
     { href: '/process', label: t('nav', 'process') },
     { href: '/profile', label: t('nav', 'profile') },
     { href: '/exhibitions', label: t('nav', 'exhibitions') },

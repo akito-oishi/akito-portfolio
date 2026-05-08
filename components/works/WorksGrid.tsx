@@ -1,18 +1,38 @@
 'use client'
 
+import Link from 'next/link'
 import { useLanguage } from '@/lib/i18n'
 import { FadeIn } from '@/components/ui/FadeIn'
 import { WorkCard } from './WorkCard'
-import type { Artwork } from '@/lib/types'
+import type { Artwork, Series } from '@/lib/types'
 
-export function WorksGrid({ artworks }: { artworks: Artwork[] }) {
-    const { t } = useLanguage()
+type Props = {
+    artworks: Artwork[]
+    series?: Series
+}
+
+export function WorksGrid({ artworks, series }: Props) {
+    const { lang, t } = useLanguage()
+
+    const heading = series
+        ? lang === 'ja' ? series.title : series.titleEn
+        : t('works', 'title')
 
     return (
         <section className="max-w-content mx-auto px-6 md:px-12 py-20 md:py-24">
             <FadeIn>
+                {series && (
+                    <div className="mb-8">
+                        <Link
+                            href="/works"
+                            className="font-sans text-xs tracking-widest text-muted hover:text-ink transition-colors"
+                        >
+                            {t('works', 'backToSeries')}
+                        </Link>
+                    </div>
+                )}
                 <h1 className="font-serif text-2xl font-light tracking-wider mb-16 md:mb-20">
-                    {t('works', 'title')}
+                    {heading}
                 </h1>
             </FadeIn>
 

@@ -19,3 +19,22 @@ export function isOngoing(exhibition: Exhibition): boolean {
     const end = new Date(exhibition.endDate)
     return now >= start && now <= end
 }
+
+export function isFuture(exhibition: Exhibition): boolean {
+    return new Date(exhibition.startDate) > new Date()
+}
+
+export function isPast(exhibition: Exhibition): boolean {
+    return new Date(exhibition.endDate) < new Date()
+}
+
+export function getTopExhibitions(min = 3): Exhibition[] {
+    const all = getExhibitions()
+    const now = new Date()
+    const upcoming = all.filter(
+        (e) => new Date(e.startDate) > now || isOngoing(e)
+    )
+    if (upcoming.length >= min) return upcoming
+    const past = all.filter((e) => new Date(e.endDate) < now)
+    return [...upcoming, ...past].slice(0, min)
+}

@@ -17,7 +17,7 @@ export function Hero({ images }: Props) {
         if (images.length <= 1) return
         const timer = setInterval(() => {
             setCurrent((prev) => (prev + 1) % images.length)
-        }, 5000)
+        }, 3500)
         return () => clearInterval(timer)
     }, [images.length])
 

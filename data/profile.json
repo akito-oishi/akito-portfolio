@@ -3,12 +3,25 @@
   "nameEn": "Akito Oishi",
   "bio": [
     { "year": "1997", "text": "静岡県焼津市生まれ", "textEn": "Born in Yaizu, Shizuoka, Japan" },
-    { "year": "2004", "text": "焼津市新屋幼稚園 卒業", "textEn": "Graduated from Shinyashiki Kindergarten, Yaizu" },
-    { "year": "2010", "text": "焼津市立焼津東小学校 卒業", "textEn": "Graduated from Yaizu East Elementary School" },
-    { "year": "2013", "text": "静岡大学教育学部附属島田中学校 卒業", "textEn": "Graduated from Shizuoka University Affiliated Shimada Junior High School" },
-    { "year": "2016", "text": "静岡学園高校 卒業", "textEn": "Graduated from Shizuoka Gakuen High School" },
-    { "year": "2022", "text": "愛知県立芸術大学 美術学部 卒業", "textEn": "BFA, Aichi University of the Arts" },
-    { "year": "2024", "text": "愛知県立芸術大学 大学院 修士課程 修了", "textEn": "MFA, Aichi University of the Arts" }
+    { "year": "2022", "text": "愛知県立芸術大学美術学部日本画専攻 卒業", "textEn": "B.F.A. in Nihonga, Aichi Prefectural University of Fine Arts and Music" },
+    { "year": "2024", "text": "愛知県立芸術大学大学院美術研究科 博士前期課程日本画研究領域(修士) 卒業", "textEn": "M.F.A. in Nihonga, Graduate School of Fine Arts, Aichi Prefectural University of Fine Arts and Music" }
+  ],
+  "exhibitions": [
+    { "year": "2022", "text": "「Vent」(香林坊大和)", "textEn": "\"Vent\" (Korinbo Daiwa, Kanazawa)" },
+    { "year": "2023", "text": "「Tetra 日本画4人展」(福岡三越)", "textEn": "\"Tetra — Four Nihonga Artists\" (Fukuoka Mitsukoshi)" },
+    { "year": "2023", "text": "「Vent II」(香林坊大和)", "textEn": "\"Vent II\" (Korinbo Daiwa, Kanazawa)" },
+    { "year": "2023", "text": "「日本画秀作展」(名古屋栄三越)", "textEn": "\"Selected Nihonga Works\" (Nagoya Sakae Mitsukoshi)" },
+    { "year": "2023", "text": "再興第108回院展 初入選", "textEn": "Japan Art Institute Exhibition (Inten) 108th — First Acceptance" },
+    { "year": "2024", "text": "「Reunion」(上野松坂屋)", "textEn": "\"Reunion\" (Ueno Matsuzakaya)" },
+    { "year": "2024", "text": "「日本画の極みを求めて」(平野美術館)", "textEn": "\"Pursuing the Essence of Nihonga\" (Hirano Museum of Art)" },
+    { "year": "2025", "text": "第80回春の院展 初入選（以降81回）", "textEn": "Spring Inten Exhibition 80th — First Acceptance (cont. 81st)" },
+    { "year": "2025", "text": "「三越美術特選会」(松山三越 / 名古屋三越)", "textEn": "\"Mitsukoshi Art Selection\" (Matsuyama Mitsukoshi / Nagoya Mitsukoshi)" },
+    { "year": "2025", "text": "「大石晃人 日本画展」(静岡伊勢丹)", "textEn": "\"Akito Oishi — Nihonga Exhibition\" (Shizuoka Isetan)" },
+    { "year": "2026", "text": "「三越美術特選会 特集」(札幌三越)", "textEn": "\"Mitsukoshi Art Selection Feature\" (Sapporo Mitsukoshi)" },
+    { "year": "2026", "text": "「大石晃人 日本画展」(静岡伊勢丹)", "textEn": "\"Akito Oishi — Nihonga Exhibition\" (Shizuoka Isetan)" },
+    { "year": "2026", "text": "「大石晃人 日本画展 -静惹氣-」(新潟伊勢丹)", "textEn": "\"Akito Oishi — Nihonga Exhibition: Seijaki\" (Niigata Isetan)" },
+    { "year": "2026", "text": "「昇鯉展」(名古屋松坂屋)", "textEn": "\"Shorin Exhibition\" (Nagoya Matsuzakaya)" },
+    { "year": "", "text": "他グループ展多数", "textEn": "Plus numerous group exhibitions" }
   ],
   "email": "huangredanshi@gmail.com",
   "instagram": "akito_oishi"

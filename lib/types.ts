@@ -41,10 +41,17 @@ export type BiographyEntry = {
     textEn: string
 }
 
+export type ExhibitionEntry = {
+    year: string
+    text: string
+    textEn: string
+}
+
 export type Profile = {
     name: string
     nameEn: string
     bio: BiographyEntry[]
+    exhibitions: ExhibitionEntry[]
     email: string
     instagram: string
 }

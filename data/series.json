@@ -1,36 +1,29 @@
 [
   {
-    "slug": "flowers",
-    "title": "花と草",
-    "titleEn": "Flowers & Plants",
+    "slug": "Flicker",
+    "title": "Flicker",
+    "titleEn": "Flicker",
     "description": "",
     "descriptionEn": ""
   },
   {
-    "slug": "landscapes",
-    "title": "景色",
-    "titleEn": "Landscapes",
+    "slug": "Haze",
+    "title": "Haze",
+    "titleEn": "Haze",
     "description": "",
     "descriptionEn": ""
   },
   {
-    "slug": "figures",
-    "title": "人物",
-    "titleEn": "Figures",
+    "slug": "small",
+    "title": "小作品",
+    "titleEn": "Small Works",
     "description": "",
     "descriptionEn": ""
   },
   {
-    "slug": "abstract",
-    "title": "抽象",
-    "titleEn": "Abstract",
-    "description": "",
-    "descriptionEn": ""
-  },
-  {
-    "slug": "animals",
-    "title": "動物",
-    "titleEn": "Animals",
+    "slug": "big",
+    "title": "中大作",
+    "titleEn": "Large Works",
     "description": "",
     "descriptionEn": ""
   }

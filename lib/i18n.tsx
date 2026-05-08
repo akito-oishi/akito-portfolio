@@ -7,8 +7,7 @@ export type Lang = 'ja' | 'en'
 const dict = {
   nav: {
     works: { ja: '作品', en: 'Works' },
-    materials: { ja: '素材', en: 'Materials' },
-    process: { ja: '技法', en: 'Process' },
+    process: { ja: '制作風景', en: 'Process' },
     profile: { ja: 'プロフィール', en: 'Profile' },
     exhibitions: { ja: '展覧会', en: 'Exhibitions' },
     contact: { ja: 'お問い合わせ', en: 'Contact' },
@@ -22,6 +21,7 @@ const dict = {
   },
   works: {
     title: { ja: '作品', en: 'Works' },
+    seriesListTitle: { ja: '作品シリーズ', en: 'Works' },
     back: { ja: '← 作品一覧', en: '← Works' },
     prev: { ja: '← 前の作品', en: '← Previous' },
     next: { ja: '次の作品 →', en: 'Next →' },
@@ -35,6 +35,7 @@ const dict = {
   profile: {
     title: { ja: 'プロフィール', en: 'Profile' },
     biography: { ja: '略歴', en: 'Biography' },
+    exhibitions: { ja: '展示略歴', en: 'Exhibition History' },
   },
   exhibitions: {
     title: { ja: '展覧会', en: 'Exhibitions' },
@@ -55,7 +56,7 @@ const dict = {
     title: { ja: '素材', en: 'Materials' },
   },
   process: {
-    title: { ja: '技法', en: 'Process' },
+    title: { ja: '制作風景', en: 'Process' },
   },
   footer: {
     rights: { ja: '© 2026 Akito Oishi', en: '© 2026 Akito Oishi' },

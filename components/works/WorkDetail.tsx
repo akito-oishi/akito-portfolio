@@ -23,10 +23,10 @@ export function WorkDetail({ artwork, prev, next }: Props) {
       <div className="max-w-content mx-auto px-6 md:px-12">
         <div className="mb-10">
           <Link
-            href="/works"
+            href={`/works/series/${artwork.series}`}
             className="font-sans text-xs tracking-widest text-muted hover:text-ink transition-colors"
           >
-            {t('works', 'back')}
+            {t('works', 'backToSeries')}
           </Link>
         </div>
 

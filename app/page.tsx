@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
-import { getFeaturedArtworks } from '@/lib/artworks'
-import { getLatestExhibition } from '@/lib/exhibitions'
+import { getTopArtworks } from '@/lib/artworks'
+import { getTopExhibitions } from '@/lib/exhibitions'
 import { Hero } from '@/components/home/Hero'
 import { FeaturedWorks } from '@/components/home/FeaturedWorks'
 import { LatestExhibition } from '@/components/home/LatestExhibition'
@@ -20,14 +20,14 @@ function getSlideImages(): string[] {
 
 export default function HomePage() {
     const slideImages = getSlideImages()
-    const featured = getFeaturedArtworks()
-    const latestExhibition = getLatestExhibition()
+    const topArtworks = getTopArtworks()
+    const topExhibitions = getTopExhibitions()
 
     return (
         <>
             <Hero images={slideImages} />
-            <FeaturedWorks artworks={featured} />
-            {latestExhibition && <LatestExhibition exhibition={latestExhibition} />}
+            <FeaturedWorks artworks={topArtworks} />
+            {topExhibitions.length > 0 && <LatestExhibition exhibitions={topExhibitions} />}
         </>
     )
 }

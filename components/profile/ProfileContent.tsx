@@ -34,12 +34,12 @@ export function ProfileContent({ profile }: { profile: Profile }) {
                         </p>
                     </FadeIn>
 
-                    {/* Biography */}
+                    {/* Biography + Exhibition History */}
                     <FadeIn className="flex-1" delay={0.1}>
                         <h2 className="font-sans text-xs tracking-widest text-muted mb-10">
                             {t('profile', 'biography')}
                         </h2>
-                        <dl className="space-y-5 max-w-prose">
+                        <dl className="space-y-5 max-w-prose mb-16">
                             {profile.bio.map((entry) => (
                                 <div key={entry.year} className="flex gap-6 md:gap-10">
                                     <dt className="font-sans text-xs text-muted w-10 shrink-0 pt-0.5">
@@ -50,6 +50,26 @@ export function ProfileContent({ profile }: { profile: Profile }) {
                                     </dd>
                                 </div>
                             ))}
+                        </dl>
+
+                        <h2 className="font-sans text-xs tracking-widest text-muted mb-10">
+                            {t('profile', 'exhibitions')}
+                        </h2>
+                        <dl className="space-y-4 max-w-prose">
+                            {profile.exhibitions.map((entry, i) => {
+                                const prevYear = i > 0 ? profile.exhibitions[i - 1].year : null
+                                const showYear = entry.year !== prevYear
+                                return (
+                                    <div key={i} className="flex gap-6 md:gap-10">
+                                        <dt className="font-sans text-xs text-muted w-10 shrink-0 pt-0.5">
+                                            {showYear ? entry.year : ''}
+                                        </dt>
+                                        <dd className="font-sans text-sm leading-relaxed text-ink">
+                                            {lang === 'ja' ? entry.text : entry.textEn}
+                                        </dd>
+                                    </div>
+                                )
+                            })}
                         </dl>
                     </FadeIn>
                 </div>
