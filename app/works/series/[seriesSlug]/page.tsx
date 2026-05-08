@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'
-import { getArtworks, getSeriesList, getArtworksBySeries } from '@/lib/artworks'
+import { getSeriesList, getArtworksBySeries } from '@/lib/artworks'
 import { WorksGrid } from '@/components/works/WorksGrid'
 import type { Metadata } from 'next'
 
