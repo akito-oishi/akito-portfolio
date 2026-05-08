@@ -58,7 +58,7 @@ export function SeriesList({ seriesList, artworks }: Props) {
                                         {title}
                                     </p>
                                     {description && (
-                                        <p className="font-sans text-sm leading-relaxed text-muted max-w-sm">
+                                        <p className="font-sans text-sm leading-relaxed text-muted max-w-sm whitespace-pre-line">
                                             {description}
                                         </p>
                                     )}
