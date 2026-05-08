@@ -25,7 +25,7 @@ export function SeriesList({ seriesList, artworks }: Props) {
             <div className="flex flex-col divide-y divide-border">
                 {seriesList.map((series, i) => {
                     const seriesArtworks = artworks.filter((a) => a.series === series.slug)
-                    const rep = seriesArtworks[0]
+                    const rep = seriesArtworks.find((a) => a.featured) ?? seriesArtworks[0]
                     const title = lang === 'ja' ? series.title : series.titleEn
                     const description = lang === 'ja' ? series.description : series.descriptionEn
 
