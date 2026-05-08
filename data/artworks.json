@@ -311,11 +311,11 @@
     "featured": false,
     "showOnTop": false
   },    
- ｛
-    "slug": "haze-0022",
-    "title": "Interplay",
-    "titleEn": "Interplay",
-    "image": "Haze0022.jpg",
+  {
+    "slug": "haze-0021",
+    "title": "Lucent",
+    "titleEn": "Lucent",  
+    "image":"Haze0021.jpg",
     "year": 2026,
     "size": "6号",
     "medium": "日本画",
@@ -324,11 +324,11 @@
     "featured": false,
     "showOnTop": false
   },
-  {
-    "slug": "haze-0021",
-    "title": "Lucent",
-    "titleEn": "Lucent",  
-    "image":"Haze0021.jpg",
+｛  
+    "slug": "haze-0022",
+    "title": "Interplay",
+    "titleEn": "Interplay",
+    "image": "Haze0022.jpg",
     "year": 2026,
     "size": "6号",
     "medium": "日本画",
