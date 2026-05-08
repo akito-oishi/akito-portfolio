@@ -10,7 +10,17 @@ export type Artwork = {
     commentEn?: string
     image: string
     featured: boolean
+    showOnTop: boolean
+    series: string
     tags: string[]
+}
+
+export type Series = {
+    slug: string
+    title: string
+    titleEn: string
+    description?: string
+    descriptionEn?: string
 }
 
 export type Exhibition = {
@@ -37,4 +47,22 @@ export type Profile = {
     bio: BiographyEntry[]
     email: string
     instagram: string
+}
+
+export type Material = {
+    id: string
+    title: string
+    titleEn: string
+    description: string
+    descriptionEn: string
+    image: string
+}
+
+export type ProcessItem = {
+    id: string
+    title: string
+    titleEn: string
+    description: string
+    descriptionEn: string
+    video: string
 }

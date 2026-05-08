@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ginpaku",
+    "title": "銀箔",
+    "titleEn": "Silver Leaf",
+    "description": "和紙や絹に貼り付けて光沢を与える伝統的な素材。",
+    "descriptionEn": "Traditional material applied to washi or silk to add luminosity.",
+    "image": "ginpaku.jpg"
+  },
+  {
+    "id": "iwaenogu",
+    "title": "岩絵具",
+    "titleEn": "Mineral Pigments",
+    "description": "天然の鉱石を砕いて作られた日本画の基本顔料。粒子の粗さで発色が異なる。",
+    "descriptionEn": "Ground natural minerals forming the foundational pigments of Nihonga. Grain size determines color depth.",
+    "image": "iwaenogu.jpg"
+  },
+  {
+    "id": "nikawa",
+    "title": "膠",
+    "titleEn": "Animal Glue",
+    "description": "動物の皮や骨から抽出した天然の接着剤。岩絵具を画面に定着させるために使用する。",
+    "descriptionEn": "Natural adhesive extracted from animal hide and bone, used to bind mineral pigments to the painting surface.",
+    "image": "nikawa.jpg"
+  },
+  {
+    "id": "sumi",
+    "title": "墨",
+    "titleEn": "Sumi Ink",
+    "description": "松煙や油煙を固めた伝統的な黒色顔料。水で溶いて濃淡を表現する。",
+    "descriptionEn": "Traditional carbon-based ink made from soot, diluted with water to create a range of tones.",
+    "image": "sumi.jpg"
+  }
+]

@@ -1,5 +1,6 @@
 import artworksData from '@/data/artworks.json'
-import type { Artwork } from './types'
+import seriesData from '@/data/series.json'
+import type { Artwork, Series } from './types'
 
 const artworks = artworksData as Artwork[]
 
@@ -29,4 +30,20 @@ export function getAdjacentArtworks(slug: string): {
         prev: index > 0 ? artworks[index - 1] : null,
         next: index < artworks.length - 1 ? artworks[index + 1] : null,
     }
+}
+
+export function getTopArtworks(): Artwork[] {
+    return artworks.filter((a) => a.showOnTop)
+}
+
+export function getSeriesList(): Series[] {
+    return seriesData as Series[]
+}
+
+export function getArtworksBySeries(seriesSlug: string): Artwork[] {
+    return artworks.filter((a) => a.series === seriesSlug)
+}
+
+export function getSeriesRepresentative(seriesSlug: string): Artwork | undefined {
+    return artworks.find((a) => a.series === seriesSlug)
 }

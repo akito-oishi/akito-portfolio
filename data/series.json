@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "flowers",
+    "title": "花と草",
+    "titleEn": "Flowers & Plants",
+    "description": "",
+    "descriptionEn": ""
+  },
+  {
+    "slug": "landscapes",
+    "title": "景色",
+    "titleEn": "Landscapes",
+    "description": "",
+    "descriptionEn": ""
+  },
+  {
+    "slug": "figures",
+    "title": "人物",
+    "titleEn": "Figures",
+    "description": "",
+    "descriptionEn": ""
+  },
+  {
+    "slug": "abstract",
+    "title": "抽象",
+    "titleEn": "Abstract",
+    "description": "",
+    "descriptionEn": ""
+  },
+  {
+    "slug": "animals",
+    "title": "動物",
+    "titleEn": "Animals",
+    "description": "",
+    "descriptionEn": ""
+  }
+]

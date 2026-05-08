@@ -1,56 +1,974 @@
 [
-  {"slug":"artwork-001","title":"無題 001","titleEn":"Untitled 001","year":2024,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"11868170-710E-4547-AE20-0FAC3DDDB6AA.jpg","featured":true,"tags":["nihonga"]},
-  {"slug":"artwork-002","title":"無題 002","titleEn":"Untitled 002","year":2024,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"1C505D7A-0105-4A46-B490-C38ECFC19791.jpg","featured":true,"tags":["nihonga"]},
-  {"slug":"artwork-003","title":"無題 003","titleEn":"Untitled 003","year":2024,"size":"F12","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"4420CA9F-0A01-46AE-877B-2C8DFD6AF615.jpg","featured":true,"tags":["nihonga"]},
-  {"slug":"artwork-004","title":"無題 004","titleEn":"Untitled 004","year":2024,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"98CCFC4F-C7F3-4429-A5AE-3641ECEC880E.jpg","featured":true,"tags":["nihonga"]},
-  {"slug":"artwork-005","title":"無題 005","titleEn":"Untitled 005","year":2023,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"A9D8050A-FCBC-4662-B423-69F4506440DB.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-006","title":"無題 006","titleEn":"Untitled 006","year":2023,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"AC2231A2-498F-4777-A992-E80454F3CFB2.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-007","title":"無題 007","titleEn":"Untitled 007","year":2023,"size":"F15","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"AC3F8A61-2003-4DE1-A3BE-F2C42242F9AC.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-008","title":"無題 008","titleEn":"Untitled 008","year":2023,"size":"F4","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"D27A99BC-6FDF-43A9-BDCE-5F422948D87F.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-009","title":"無題 009","titleEn":"Untitled 009","year":2023,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238549_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-010","title":"無題 010","titleEn":"Untitled 010","year":2023,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238550_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-011","title":"無題 011","titleEn":"Untitled 011","year":2023,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238551_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-012","title":"無題 012","titleEn":"Untitled 012","year":2023,"size":"F12","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238552_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-013","title":"無題 013","titleEn":"Untitled 013","year":2023,"size":"F4","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238553_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-014","title":"無題 014","titleEn":"Untitled 014","year":2022,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238554_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-015","title":"無題 015","titleEn":"Untitled 015","year":2022,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238555_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-016","title":"無題 016","titleEn":"Untitled 016","year":2022,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238556_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-017","title":"無題 017","titleEn":"Untitled 017","year":2022,"size":"F15","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238557_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-018","title":"無題 018","titleEn":"Untitled 018","year":2022,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238558_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-019","title":"無題 019","titleEn":"Untitled 019","year":2024,"size":"F4","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238560_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-020","title":"無題 020","titleEn":"Untitled 020","year":2024,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238561_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-021","title":"無題 021","titleEn":"Untitled 021","year":2024,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238562_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-022","title":"無題 022","titleEn":"Untitled 022","year":2024,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238563_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-023","title":"無題 023","titleEn":"Untitled 023","year":2024,"size":"F12","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238564_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-024","title":"無題 024","titleEn":"Untitled 024","year":2024,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238565_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-025","title":"無題 025","titleEn":"Untitled 025","year":2025,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238566_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-026","title":"無題 026","titleEn":"Untitled 026","year":2025,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238567_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-027","title":"無題 027","titleEn":"Untitled 027","year":2025,"size":"F4","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238568_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-028","title":"無題 028","titleEn":"Untitled 028","year":2025,"size":"F15","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238569_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-029","title":"無題 029","titleEn":"Untitled 029","year":2025,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238571_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-030","title":"無題 030","titleEn":"Untitled 030","year":2025,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238572_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-031","title":"無題 031","titleEn":"Untitled 031","year":2025,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238573_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-032","title":"無題 032","titleEn":"Untitled 032","year":2025,"size":"F12","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238574_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-033","title":"無題 033","titleEn":"Untitled 033","year":2025,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238575_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-034","title":"無題 034","titleEn":"Untitled 034","year":2025,"size":"F4","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238576_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-035","title":"無題 035","titleEn":"Untitled 035","year":2025,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238577_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-036","title":"無題 036","titleEn":"Untitled 036","year":2025,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238578_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-037","title":"無題 037","titleEn":"Untitled 037","year":2026,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238579_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-038","title":"無題 038","titleEn":"Untitled 038","year":2026,"size":"F12","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238580_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-039","title":"無題 039","titleEn":"Untitled 039","year":2026,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238582_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-040","title":"無題 040","titleEn":"Untitled 040","year":2026,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238583_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-041","title":"無題 041","titleEn":"Untitled 041","year":2026,"size":"F4","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238584_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-042","title":"無題 042","titleEn":"Untitled 042","year":2026,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238585_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-043","title":"無題 043","titleEn":"Untitled 043","year":2026,"size":"F15","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238586_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-044","title":"無題 044","titleEn":"Untitled 044","year":2026,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238587_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-045","title":"無題 045","titleEn":"Untitled 045","year":2026,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238588_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-046","title":"無題 046","titleEn":"Untitled 046","year":2026,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238589_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-047","title":"無題 047","titleEn":"Untitled 047","year":2026,"size":"F12","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238590_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-048","title":"無題 048","titleEn":"Untitled 048","year":2026,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238591_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-049","title":"無題 049","titleEn":"Untitled 049","year":2026,"size":"F4","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238593_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-050","title":"無題 050","titleEn":"Untitled 050","year":2026,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238594_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-051","title":"無題 051","titleEn":"Untitled 051","year":2026,"size":"F10","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238595_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-052","title":"無題 052","titleEn":"Untitled 052","year":2026,"size":"F8","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238596_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-053","title":"無題 053","titleEn":"Untitled 053","year":2026,"size":"F12","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238597_0.jpg","featured":false,"tags":["nihonga"]},
-  {"slug":"artwork-054","title":"無題 054","titleEn":"Untitled 054","year":2026,"size":"F6","medium":"日本画","mediumEn":"Nihonga","comment":"","commentEn":"","image":"S__41238598_0.jpg","featured":false,"tags":["nihonga"]}
+  {
+    "slug": "artwork-001",
+    "title": "無題 001",
+    "titleEn": "Untitled 001",
+    "year": 2024,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "11868170-710E-4547-AE20-0FAC3DDDB6AA.jpg",
+    "featured": true,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": true,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-002",
+    "title": "無題 002",
+    "titleEn": "Untitled 002",
+    "year": 2024,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "1C505D7A-0105-4A46-B490-C38ECFC19791.jpg",
+    "featured": true,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-003",
+    "title": "無題 003",
+    "titleEn": "Untitled 003",
+    "year": 2024,
+    "size": "F12",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "4420CA9F-0A01-46AE-877B-2C8DFD6AF615.jpg",
+    "featured": true,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": true,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-004",
+    "title": "無題 004",
+    "titleEn": "Untitled 004",
+    "year": 2024,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "98CCFC4F-C7F3-4429-A5AE-3641ECEC880E.jpg",
+    "featured": true,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  },
+  {
+    "slug": "artwork-005",
+    "title": "無題 005",
+    "titleEn": "Untitled 005",
+    "year": 2023,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "A9D8050A-FCBC-4662-B423-69F4506440DB.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "animals"
+  },
+  {
+    "slug": "artwork-006",
+    "title": "無題 006",
+    "titleEn": "Untitled 006",
+    "year": 2023,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "AC2231A2-498F-4777-A992-E80454F3CFB2.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-007",
+    "title": "無題 007",
+    "titleEn": "Untitled 007",
+    "year": 2023,
+    "size": "F15",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "AC3F8A61-2003-4DE1-A3BE-F2C42242F9AC.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": true,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-008",
+    "title": "無題 008",
+    "titleEn": "Untitled 008",
+    "year": 2023,
+    "size": "F4",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "D27A99BC-6FDF-43A9-BDCE-5F422948D87F.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-009",
+    "title": "無題 009",
+    "titleEn": "Untitled 009",
+    "year": 2023,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238549_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  },
+  {
+    "slug": "artwork-010",
+    "title": "無題 010",
+    "titleEn": "Untitled 010",
+    "year": 2023,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238550_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "animals"
+  },
+  {
+    "slug": "artwork-011",
+    "title": "無題 011",
+    "titleEn": "Untitled 011",
+    "year": 2023,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238551_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-012",
+    "title": "無題 012",
+    "titleEn": "Untitled 012",
+    "year": 2023,
+    "size": "F12",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238552_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-013",
+    "title": "無題 013",
+    "titleEn": "Untitled 013",
+    "year": 2023,
+    "size": "F4",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238553_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-014",
+    "title": "無題 014",
+    "titleEn": "Untitled 014",
+    "year": 2022,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238554_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  },
+  {
+    "slug": "artwork-015",
+    "title": "無題 015",
+    "titleEn": "Untitled 015",
+    "year": 2022,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238555_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": true,
+    "series": "animals"
+  },
+  {
+    "slug": "artwork-016",
+    "title": "無題 016",
+    "titleEn": "Untitled 016",
+    "year": 2022,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238556_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-017",
+    "title": "無題 017",
+    "titleEn": "Untitled 017",
+    "year": 2022,
+    "size": "F15",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238557_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-018",
+    "title": "無題 018",
+    "titleEn": "Untitled 018",
+    "year": 2022,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238558_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-019",
+    "title": "無題 019",
+    "titleEn": "Untitled 019",
+    "year": 2024,
+    "size": "F4",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238560_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  },
+  {
+    "slug": "artwork-020",
+    "title": "無題 020",
+    "titleEn": "Untitled 020",
+    "year": 2024,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238561_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "animals"
+  },
+  {
+    "slug": "artwork-021",
+    "title": "無題 021",
+    "titleEn": "Untitled 021",
+    "year": 2024,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238562_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-022",
+    "title": "無題 022",
+    "titleEn": "Untitled 022",
+    "year": 2024,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238563_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-023",
+    "title": "無題 023",
+    "titleEn": "Untitled 023",
+    "year": 2024,
+    "size": "F12",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238564_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-024",
+    "title": "無題 024",
+    "titleEn": "Untitled 024",
+    "year": 2024,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238565_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  },
+  {
+    "slug": "artwork-025",
+    "title": "無題 025",
+    "titleEn": "Untitled 025",
+    "year": 2025,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238566_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": true,
+    "series": "animals"
+  },
+  {
+    "slug": "artwork-026",
+    "title": "無題 026",
+    "titleEn": "Untitled 026",
+    "year": 2025,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238567_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-027",
+    "title": "無題 027",
+    "titleEn": "Untitled 027",
+    "year": 2025,
+    "size": "F4",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238568_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-028",
+    "title": "無題 028",
+    "titleEn": "Untitled 028",
+    "year": 2025,
+    "size": "F15",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238569_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-029",
+    "title": "無題 029",
+    "titleEn": "Untitled 029",
+    "year": 2025,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238571_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  },
+  {
+    "slug": "artwork-030",
+    "title": "無題 030",
+    "titleEn": "Untitled 030",
+    "year": 2025,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238572_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "animals"
+  },
+  {
+    "slug": "artwork-031",
+    "title": "無題 031",
+    "titleEn": "Untitled 031",
+    "year": 2025,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238573_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-032",
+    "title": "無題 032",
+    "titleEn": "Untitled 032",
+    "year": 2025,
+    "size": "F12",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238574_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-033",
+    "title": "無題 033",
+    "titleEn": "Untitled 033",
+    "year": 2025,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238575_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-034",
+    "title": "無題 034",
+    "titleEn": "Untitled 034",
+    "year": 2025,
+    "size": "F4",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238576_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  },
+  {
+    "slug": "artwork-035",
+    "title": "無題 035",
+    "titleEn": "Untitled 035",
+    "year": 2025,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238577_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": true,
+    "series": "animals"
+  },
+  {
+    "slug": "artwork-036",
+    "title": "無題 036",
+    "titleEn": "Untitled 036",
+    "year": 2025,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238578_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-037",
+    "title": "無題 037",
+    "titleEn": "Untitled 037",
+    "year": 2026,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238579_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-038",
+    "title": "無題 038",
+    "titleEn": "Untitled 038",
+    "year": 2026,
+    "size": "F12",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238580_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-039",
+    "title": "無題 039",
+    "titleEn": "Untitled 039",
+    "year": 2026,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238582_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  },
+  {
+    "slug": "artwork-040",
+    "title": "無題 040",
+    "titleEn": "Untitled 040",
+    "year": 2026,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238583_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "animals"
+  },
+  {
+    "slug": "artwork-041",
+    "title": "無題 041",
+    "titleEn": "Untitled 041",
+    "year": 2026,
+    "size": "F4",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238584_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-042",
+    "title": "無題 042",
+    "titleEn": "Untitled 042",
+    "year": 2026,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238585_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-043",
+    "title": "無題 043",
+    "titleEn": "Untitled 043",
+    "year": 2026,
+    "size": "F15",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238586_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-044",
+    "title": "無題 044",
+    "titleEn": "Untitled 044",
+    "year": 2026,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238587_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  },
+  {
+    "slug": "artwork-045",
+    "title": "無題 045",
+    "titleEn": "Untitled 045",
+    "year": 2026,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238588_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "animals"
+  },
+  {
+    "slug": "artwork-046",
+    "title": "無題 046",
+    "titleEn": "Untitled 046",
+    "year": 2026,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238589_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-047",
+    "title": "無題 047",
+    "titleEn": "Untitled 047",
+    "year": 2026,
+    "size": "F12",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238590_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-048",
+    "title": "無題 048",
+    "titleEn": "Untitled 048",
+    "year": 2026,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238591_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-049",
+    "title": "無題 049",
+    "titleEn": "Untitled 049",
+    "year": 2026,
+    "size": "F4",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238593_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  },
+  {
+    "slug": "artwork-050",
+    "title": "無題 050",
+    "titleEn": "Untitled 050",
+    "year": 2026,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238594_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "animals"
+  },
+  {
+    "slug": "artwork-051",
+    "title": "無題 051",
+    "titleEn": "Untitled 051",
+    "year": 2026,
+    "size": "F10",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238595_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "flowers"
+  },
+  {
+    "slug": "artwork-052",
+    "title": "無題 052",
+    "titleEn": "Untitled 052",
+    "year": 2026,
+    "size": "F8",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238596_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "landscapes"
+  },
+  {
+    "slug": "artwork-053",
+    "title": "無題 053",
+    "titleEn": "Untitled 053",
+    "year": 2026,
+    "size": "F12",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238597_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "figures"
+  },
+  {
+    "slug": "artwork-054",
+    "title": "無題 054",
+    "titleEn": "Untitled 054",
+    "year": 2026,
+    "size": "F6",
+    "medium": "日本画",
+    "mediumEn": "Nihonga",
+    "comment": "",
+    "commentEn": "",
+    "image": "S__41238598_0.jpg",
+    "featured": false,
+    "tags": [
+      "nihonga"
+    ],
+    "showOnTop": false,
+    "series": "abstract"
+  }
 ]

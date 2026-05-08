@@ -1,0 +1,18 @@
+[
+  {
+    "id": "process-001",
+    "title": "制作風景 I",
+    "titleEn": "Creation Process I",
+    "description": "岩絵具を丁寧に重ねていく過程。",
+    "descriptionEn": "Layering mineral pigments with care.",
+    "video": "ScreenRecording_05-08-2026 09-01-27_1.mov"
+  },
+  {
+    "id": "process-002",
+    "title": "制作風景 II",
+    "titleEn": "Creation Process II",
+    "description": "細部の描き込みと仕上げの工程。",
+    "descriptionEn": "Refining details and finishing.",
+    "video": "ScreenRecording_05-08-2026 09-02-04_1.mov"
+  }
+]
