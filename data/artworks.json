@@ -322,9 +322,9 @@
     "mediumEn": "Nihonga",
     "series": "Haze",
     "featured": false,
-    "showOnTop": false
+    "showOnTop": false ,
   },
-｛  
+  {
     "slug": "haze-0022",
     "title": "Interplay",
     "titleEn": "Interplay",
