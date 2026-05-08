@@ -27,6 +27,8 @@ export function Header() {
 
   const navLinks = [
     { href: '/works', label: t('nav', 'works') },
+    { href: '/materials', label: t('nav', 'materials') },
+    { href: '/process', label: t('nav', 'process') },
     { href: '/profile', label: t('nav', 'profile') },
     { href: '/exhibitions', label: t('nav', 'exhibitions') },
     { href: '/contact', label: t('nav', 'contact') },
@@ -43,7 +45,7 @@ export function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6">
           {navLinks.map(({ href, label }) => (
             <Link
               key={href}
