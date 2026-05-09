@@ -25,10 +25,14 @@ export function getAdjacentArtworks(slug: string): {
     prev: Artwork | null
     next: Artwork | null
 } {
-    const index = artworks.findIndex((a) => a.slug === slug)
+    const artwork = artworks.find((a) => a.slug === slug)
+    if (!artwork) return { prev: null, next: null }
+
+    const seriesArtworks = artworks.filter((a) => a.series === artwork.series)
+    const index = seriesArtworks.findIndex((a) => a.slug === slug)
     return {
-        prev: index > 0 ? artworks[index - 1] : null,
-        next: index < artworks.length - 1 ? artworks[index + 1] : null,
+        prev: index > 0 ? seriesArtworks[index - 1] : null,
+        next: index < seriesArtworks.length - 1 ? seriesArtworks[index + 1] : null,
     }
 }
 
