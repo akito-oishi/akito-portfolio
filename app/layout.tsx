@@ -38,6 +38,9 @@ export const metadata: Metadata = {
     locale: 'ja_JP',
     siteName: 'Akito Oishi',
   },
+  verification: {
+    google: 'CYZz6a37nfjwyUnaa1xvJq41x9fVs1NeWLmDaA_BrGE',
+  },
 }
 
 export default function RootLayout({
