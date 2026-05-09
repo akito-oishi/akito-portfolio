@@ -1,6 +1,6 @@
 [
   {
-    "title": "松山三越 特集",
+    "title": "三越美術特選会 特集",
     "titleEn": "Matsuyama Mitsukoshi Special Feature",
     "location": "松山三越",
     "locationEn": "Matsuyama Mitsukoshi",
@@ -11,7 +11,7 @@
     "link": ""
   },
   {
-    "title": "名古屋松坂屋",
+    "title": "昇鯉展",
     "titleEn": "Nagoya Matsuzakaya",
     "location": "名古屋松坂屋",
     "locationEn": "Nagoya Matsuzakaya",
@@ -33,8 +33,8 @@
     "link": ""
   },
   {
-    "title": "マエマス画廊 展覧会",
-    "titleEn": "Maemasu Gallery Exhibition",
+    "title": "SOA2",
+    "titleEn": "Synergy　Of Art",
     "location": "マエマス画廊",
     "locationEn": "Maemasu Gallery",
     "startDate": "2026-04-03",
@@ -44,8 +44,8 @@
     "link": ""
   },
   {
-    "title": "春の院展",
-    "titleEn": "Spring In-ten Exhibition",
+    "title": "第81回春の院展",
+    "titleEn": "81st Spring In-ten Exhibition",
     "location": "日本橋三越本店",
     "locationEn": "Nihombashi Mitsukoshi Main Store",
     "startDate": "2026-03-25",
@@ -55,8 +55,8 @@
     "link": "https://nihonbijutsuin.or.jp/"
   },
   {
-    "title": "新潟伊勢丹アートギャラリー",
-    "titleEn": "Niigata Isetan Art Gallery",
+    "title": "大石晃人 日本画展－静惹氣-",
+    "titleEn": "Akito Oishi Solo Exhibition -Seijakuki-",
     "location": "新潟伊勢丹アートギャラリー",
     "locationEn": "Niigata Isetan Art Gallery",
     "startDate": "2026-01-21",
