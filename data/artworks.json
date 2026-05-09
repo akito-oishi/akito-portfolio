@@ -10,7 +10,7 @@
     "mediumEn": "Nihonga",
     "series": "Flicker",
     "featured": false,
-    "showOnTop": true
+    "showOnTop": false
   },
   {
     "slug": "flicker-0002",
@@ -23,7 +23,7 @@
     "mediumEn": "Nihonga",
     "series": "Flicker",
     "featured": false,
-    "showOnTop": false
+    "showOnTop": true
   },
   {
     "slug": "flicker-0003",
@@ -387,7 +387,7 @@
     "mediumEn": "Nihonga",
     "series": "small",
     "featured": true,
-    "showOnTop": true
+    "showOnTop": false
   },
   {
     "slug": "small-0002",
@@ -517,7 +517,7 @@
     "mediumEn": "Nihonga",
     "series": "small",
     "featured": false,
-    "showOnTop": false
+    "showOnTop": true
   },
   {
     "slug": "small-0012",
