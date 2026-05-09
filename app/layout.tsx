@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: 'Akito Oishi',
   },
   verification: {
-    google: 'CYZz6a37nfjwyUnaa1xvJq41x9fVs1NeWLmDaA_BrGE',
+    google: '-s-Ro63mNX9xoHLO9chljdUnKtl5iZ33uU1SO7t7gwA',
   },
 }
 
